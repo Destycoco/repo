@@ -51,4 +51,20 @@
 .nav-bar .logo{
     width: 85%;
 }
+.mid-text{
+    text-align: center;
+    margin: 15%;
+    width: 80%;
+   
+    
+}
+.mid-text h1{
+ font-size: 60px;
+ color: red;
+}
+.mid-text p{
+    font-size: 20px;
+    color: red;
+    padding: 10px;
+}
 
