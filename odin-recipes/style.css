@@ -147,6 +147,44 @@
     text-align: center;
     margin:auto;
 }
+.footer{
+    text-align: center;
+    margin: 100px auto;
+    color:white;
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.footer h3 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-menu{
+    margin: 15px auto;
+}
+.footer-menu a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    color:azure;
+}
+.footer .fa{
+    font-size: 30px;
+    margin: 0 20px;
+    color: #226612;
+}
+.footer .fa.fa-heart-o{
+    font-size: 100%;
+    margin: 0;
+}
+.footer p{
+    margin: 15px auto;
+}
 
 
 
