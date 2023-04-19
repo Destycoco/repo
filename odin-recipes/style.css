@@ -3,11 +3,13 @@
     margin:0;
     padding: 0;
 }
+/*********Header section*********************************************/
 .header{
     background-image: linear-gradient( rgba(255,215,0,0.9),rgba(241,247,251,0.8)), url(images/food-background-min.jpg);
     min-height: 100vh;
     
 }
+/************************* Navigation Bar *******************************/
 .nav-bar{
     display:flex;
     justify-content: space-between;
@@ -15,7 +17,7 @@
     background-color: #000;
     overflow: hidden;
 }
- .nav-bar .menu{
+ .nav-bar .menu-list .menu{
     display: flex;
     padding: 14px;
     list-style-type: none;
@@ -51,12 +53,13 @@
 .nav-bar .logo{
     width: 85%;
 }
+/**************** End Of Navigation Bar ***************************************/
+
+/**************** Middle Section in the header section*****************************************/
 .mid-text{
     text-align: center;
     margin: 15% auto;
     width: 80%;
-   
-    
 }
 .mid-text h1{
  font-size: 60px;
@@ -88,6 +91,13 @@
     background-color: #226612;
     color: red;
 }
+/******************* End of Middle section in the header section *****************************/
+
+/******************* End of header section *****************************/
+
+/***************** Middle section in the body section **********************/
+
+/******************** Header text  **************************/
 .mid-text2{
     text-align: center;
     margin: 30px auto;
@@ -95,6 +105,14 @@
     width: 80%;
     color:red;
 }
+.line{
+    width: 90%;
+    text-align: center;
+    margin:auto;
+}
+/****************** End of header text  ******************************/
+
+/***********************  recipes section********************/
 .recipes{
     display: flex;
     margin:40px auto;
@@ -119,7 +137,7 @@
 .recipes .recipes-col img:hover{
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.4);
 }
-.recipes .recipes-col a{
+.recipes .recipes-col h3 a{
     font-size: 25px;
     text-decoration: none;
     color: #fff;
@@ -137,16 +155,17 @@
     
 }
 
-.recipes .recipes-col p{
+.recipes .recipes-col h3{
     padding-top: 10px;
     display: block;
+    margin-top: 12px;
     
 }
-.line{
-    width: 90%;
-    text-align: center;
-    margin:auto;
-}
+/********************* End of Recipes section *******************/
+
+/*************** End of Middle Section in the body section ************/
+
+/**************Footer section************************************/
 .footer{
     text-align: center;
     margin: 100px auto;
@@ -185,8 +204,20 @@
 .footer p{
     margin: 15px auto;
 }
+/*************************** Media Queries *************************************/
 
+@media (max-width: 790px){
+    .mid-text h1{
+        font-size: 45px;
+    }
+    .recipes{
+        display: block;
+    }
+    .recipes .recipes-col{
+        margin: 25px auto;
+    }
+    .mid-text{
+        margin: 20% auto;
+    }
 
-
-
-
+}
