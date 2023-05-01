@@ -226,6 +226,46 @@
 .footer p{
     margin: 15px auto;
 }
+/**************** Afang Soup ******************************************/
+.afang_sec{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    
+}
+.afang{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.afang .image{
+    margin-top: 50px;
+}
+.afang .afang1{
+    flex: 1 1 auto;
+    
+}
+.afang1 .img{
+    width: 600px;
+}
+.afang1 .img img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.text p, .text li{
+    font-size: 24px;
+}
+.text{
+    border: 4px solid green;
+    background: #eee;
+    border-radius: 20px;
+    padding: 40px;
+    width: 600px;
+}
+
+
 /*************************** Media Queries *************************************/
 
 @media (max-width: 790px){
@@ -240,6 +280,10 @@
     }
     .mid-text{
         margin: 20% auto;
+    }
+
+    .afang{
+        display: block;
     }
 
 }
